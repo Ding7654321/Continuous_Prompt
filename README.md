@@ -10,7 +10,7 @@ cd seq2seq;
 python train_bart.py --mode xsum --preseqlen 200 --do_train yes --fp16 yes --bsz 16  --epoch 30  --gradient_accumulation_step 3 --learning_rate 0.00005  --mid_dim 800 --use_lowdata_token 'yes' --lowdata_token 'summarize'
 ```
 
-其中`use_lowdata_token`表示是否采用real word初始化的方式；`lowdata_token`表示传入的real word.
+
 
 ### Decode
 
