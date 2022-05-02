@@ -1,0 +1,4 @@
+File	BLEU	NIST	METEOR	ROUGE_L	CIDEr
+/home/CE/xueting/PrefixTuning-Fix/gpt2/e2e_results_conv2/data2textadaptertune_y_5_act_cat_b=1-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_a=1_b=100_o=1_o=1_test_beam	0.4662	2.8424	0.3341	0.6748	2.1459
+File	BLEU	NIST	METEOR	ROUGE_L	CIDEr
+/home/CE/xueting/PrefixTuning-Fix/gpt2/e2e_results_conv2/data2textadaptertune_y_5_act_cat_b=1-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_a=1_b=100_o=1_o=1_test_beam	0.4662	2.8424	0.3341	0.6748	2.1459

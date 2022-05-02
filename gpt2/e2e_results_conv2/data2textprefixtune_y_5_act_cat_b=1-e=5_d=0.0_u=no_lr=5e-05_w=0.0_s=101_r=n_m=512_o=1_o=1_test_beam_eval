@@ -1,0 +1,2 @@
+File	BLEU	NIST	METEOR	ROUGE_L	CIDEr
+/home/CE/xueting/PrefixTuning-Fix/gpt2/e2e_results_conv2/data2textprefixtune_y_5_act_cat_b=1-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1_test_beam	0.7801	6.3726	0.5189	0.8619	5.5250
