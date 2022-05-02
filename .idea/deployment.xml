@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Coli_Server">
+    <serverData>
+      <paths name="Coli_Server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/CE/xueting/PrefixTuning-Fix" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
