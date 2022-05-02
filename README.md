@@ -1,10 +1,6 @@
-# Prefix Tuning
 
-## Note:
 
-作者在论文中提到使用真实的word去初始化prefix的操作（Initializing the prefix with activations of real words，significantly improves generation）。我在使用作者提供的代码时遇到了一些问题，因此按照代码的思路添加了利用真实词汇进行初始化的内容。
 
-可以采用以下的方式运行：
 
 ### Train
 
