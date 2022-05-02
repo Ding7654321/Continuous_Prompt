@@ -1,10 +1,6 @@
-# Prefix Tuning
 
-## Note:
 
-作者在论文中提到使用真实的word去初始化prefix的操作（Initializing the prefix with activations of real words，significantly improves generation）。我在使用作者提供的代码时遇到了一些问题，因此按照代码的思路添加了利用真实词汇进行初始化的内容。
 
-可以采用以下的方式运行：
 
 ### Train
 
@@ -14,7 +10,7 @@ cd seq2seq;
 python train_bart.py --mode xsum --preseqlen 200 --do_train yes --fp16 yes --bsz 16  --epoch 30  --gradient_accumulation_step 3 --learning_rate 0.00005  --mid_dim 800 --use_lowdata_token 'yes' --lowdata_token 'summarize'
 ```
 
-其中`use_lowdata_token`表示是否采用real word初始化的方式；`lowdata_token`表示传入的real word.
+
 
 ### Decode
 
